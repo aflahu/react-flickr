@@ -1,12 +1,17 @@
 # React Flickr
 
-features:
+### Features:
 
 - display latest public images
 - tested (run `npm run test`)
 - search by tag
 - automatically load the image list
 - bootstrap
+
+### Demo
+https://user-images.githubusercontent.com/46624877/158070687-e3b75e44-1496-4d94-95d2-14ce69dde894.mp4
+
+demo: https://github.com/aflahu/react-flickr/blob/main/demo.mp4?raw=true
 
 ## Available Scripts
 
@@ -18,6 +23,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
+
 You will also see any lint errors in the console.
 
 ### `npm test`
