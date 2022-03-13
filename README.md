@@ -1,5 +1,7 @@
 # React Flickr
 
+demo: https://github.com/aflahu/react-flickr/blob/main/demo.mp4?raw=true
+
 ## Available Scripts
 
 In the project directory, you can run:
