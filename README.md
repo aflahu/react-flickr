@@ -1,5 +1,13 @@
 # React Flickr
 
+features:
+
+- display latest public images
+- tested (run `npm run test`)
+- search by tag
+- automatically load the image list
+- bootstrap
+
 ## Available Scripts
 
 In the project directory, you can run:
