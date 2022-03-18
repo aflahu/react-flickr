@@ -2,7 +2,7 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { IDataItem } from "../interfaces/data";
 
 interface Props {
-  item: IDataItem
+  item: IDataItem;
 }
 const ImageItem: React.FC<Props> = ({ item }) => {
   return (
@@ -17,6 +17,7 @@ const ImageItem: React.FC<Props> = ({ item }) => {
                 item.published
               ).toLocaleDateString("en-US")}`}
             </Card.Subtitle>
+            <Card.Text className="mb-2 text-muted">Tags: {item.tags}</Card.Text>
             <Card.Link href={item.link}>See at flickr</Card.Link>
           </Card.Body>
         </Card>
